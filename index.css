@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #FB7185;
+    font-size: 3rem;
+    padding: 1rem 2rem;
+    margin: auto;
+    background: black;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+h3 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: white;
+    font-family: 'verdana', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.container {
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: baseline;
+    background-color: #1B244A;
+    height: 40vmin;
+    width: 385px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.home-btn-container,
+.guest-btn-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    margin-left: 5px;
+}
+
+.home-btns,
+.guest-btns {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    font-size: 10px;
+    background: transparent;
+    border: 1px solid #9AABD8;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    padding: 7px;
+
+}
